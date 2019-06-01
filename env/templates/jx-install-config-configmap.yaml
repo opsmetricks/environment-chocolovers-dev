@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQGI37XV5KHn4JKYpJkyHn4DANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ5MWY4ZDEzYy1mZjI5LTRmNWYtYWMzNS02MGIwMDMyODcyODYw
+    HhcNMTkwNTMxMjMyNTAxWhcNMjQwNTMwMDAyNTAxWjAvMS0wKwYDVQQDEyQ5MWY4
+    ZDEzYy1mZjI5LTRmNWYtYWMzNS02MGIwMDMyODcyODYwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCaZzyGWu5aRv3bp/v83Rr16hmpdcdjmUNS1cN+RGxX
+    Rm5JkXRy5UGvdsALlOd3Tx27GO/Ez1nLoUlOr2JiDyPuLymzBwcLojJPNVGnEnFf
+    Odbk6Loxu2kMHIQ6fLRDVWSMUWp1ACnvC3cLNyWzgTS74gHT2CRypLOOXPL7C+vZ
+    Qkh4nSkrXTyJPplQeadnBHhvcjatu/tvS91bh8vfCyhdtErTG19P0/k6mMIuUbva
+    kvnLXcbPPP/pSEemAshxa6W7kYg7sVhcv/L6Al0xCP/UZ083c6EpvVFs258ldDnH
+    IFiGJddQNXxjjHHiAQsB2GNnF+4AlRSs4BO605oQUNuLAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAm
+    iEe1d9+5r8svbYz1a2jMCT1c/Oa5rhosKYW+bewxNS7BZ13vzHtMvqK/+Vl6FSsh
+    p2U2s7ozKqZnoRasb2oxmbMfsLEDKeArDw83zRC3/pcBWE4DLOxcBoJ9lpEJZ70J
+    1KgDOUNuDuPNbJPdFtYqG4Bjs1sr8CoqLpIIXVBAFoxRq2imDrP2+yl9cWmU5G7C
+    VmMLEES+O4TVrpOe6RakXhxs6TwN2Bs6wYlOj4xGwus9/AMvyE1L+zd1Ib15X3IU
+    GU+F3vCN3mds/ZC9Em8yyMnKKe1n+nODXxnc9Xn6olGaRYRKTLD5q9eA1LBF8oJP
+    xjFDvAW1nGy4lanhtFbo
+    -----END CERTIFICATE-----
+  clusterName: chocolovers
+  jx-install-version: 2.0.194
+  kubeProvider: gke
+  projectID: brandy-208318
+  region: ""
+  secretsLocation: vault
+  server: https://34.74.215.186
+  systemVaultName: jx-vault-chocolovers
+  zone: us-east1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
